@@ -135,5 +135,6 @@ rocket_type: {type: GraphQLString}
 
 ### 1. Main Page
 <img width="512" alt="Main Page" src="https://user-images.githubusercontent.com/61309080/100190060-d9909900-2f30-11eb-9ba1-63dc6ce6fe66.png">
+
 ### 2. Detail Page
 <img width="512" alt="Detail Page" src="https://user-images.githubusercontent.com/61309080/100190063-da292f80-2f30-11eb-95f6-150f6d69415d.png">
