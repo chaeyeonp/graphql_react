@@ -2,6 +2,7 @@ const {GraphQLObjectType, GraphQLInt} = require('graphql');
 
 
 //Launch Type
+
 const LaunchType = new GraphQLObjectType({
     name: 'Launch',
     fields: ()=> ({
@@ -14,14 +15,13 @@ const LaunchType = new GraphQLObjectType({
     })
 });
 
-
 //Rocket Type
 
 const RocketType = new GraphQLObjectType({
-    name: 'Rocket',
+    name: 'Launch',
     fields: ()=> ({
-        rocket_id :{type:GraphQLInt},
-        mission_name:{type:GraphQLString},
+        rocket_id :{type:GraphQLString},
+        rocket_name:{type:GraphQLString},
         rocket_type:{type: GraphQLString}
     })
 });
