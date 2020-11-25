@@ -1,0 +1,4 @@
+npm i classnames moment react-moment
+npm i apollo-boost react-apollo graphql
+moment
+
